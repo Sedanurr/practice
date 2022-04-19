@@ -1,18 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Müzik Dükkanı</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Müzik dükkanım</h1>
-    <div style="text-align: center; margin-top: 50px;">
-    <a href="home.html">Anasayfa</a>
-    <a href="products.html">Ürünlerimiz</a>
-    <a href="contact.html">İletişim</a>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <style>
+      .img {
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+      }
+      .gri {
+        background-color: darkgray;
+        height: 100px;
+      }
+      .grid-container {
+        display: grid;
+        gap: 50px 5px;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+      }
+      .grid-item {
+        background-color:aquamarine;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="img">
+      <img src="/images/google.jpg" alt="" />
+    </div>
+    <div class="gri">
+      <p style="text-align: center; margin: auto">
+        Search the web using Google!
+      </p>
+      <input
+        type="text"
+        style="
+          height: 25%;
+          width: 50%;
+          margin: auto;
+          display: flex;
+          align-items: center;
+        "
+      />
+      <div style="display: flex; justify-content: center; margin: auto">
+        <button>Google search</button>
+        <button>I'm feeling lucky</button>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item"><p>Special Search</p> <a href="">Linux Search</a> <br> <a href="">Stanford Search</a></div>
+      <div class="grid-item"><a href="">Hello</a><br><a href="">About Google!</a><br><a href="">Company Info</a><br><a href="">Google logos</a></div>
+      <div class="grid-item"><p>Get Google! <br>
+        updates monthly:</p>
+    <input type="text" name="" id="" class="width:20px height:20px"> <br> <button>Subscribe!</button> <a href="">Archive</a></div>
+    </div>
+  </body>
 </html>
